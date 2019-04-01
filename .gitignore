@@ -1,0 +1,7 @@
+/vendor
+/.idea
+composer.lock
+/build/logs/*
+/bin
+.DS_Store
+/phpspec.yml

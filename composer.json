@@ -1,0 +1,43 @@
+{
+  "name": "ericksonreyes/ddd-common",
+  "description": "Domain Driven Design Common Classes and Interfaces",
+  "license": "MIT",
+  "type": "library",
+  "require": {
+    "php": ">=7.2",
+    "ext-json": "*"
+  },
+  "require-dev": {
+    "fzaninotto/faker": "~1.4",
+    "leanphp/phpspec-code-coverage": "^4.2",
+    "mockery/mockery": "~1.0",
+    "phing/phing": "^2.16",
+    "php-coveralls/php-coveralls": "^2.1",
+    "phpmd/phpmd": "^2.6",
+    "phpspec/phpspec": "^4.0",
+    "phpunit/phpunit": "~7.0",
+    "sebastian/phpcpd": "^4.1",
+    "squizlabs/php_codesniffer": "^3.3"
+  },
+  "autoload": {
+    "psr-4": {
+      "Knit\\": "src/DDDCommon"
+    },
+    "psr-0": {
+      "": [
+        "src"
+      ]
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "spec\\": "spec/"
+    }
+  },
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "bin-dir": "bin"
+  }
+}
