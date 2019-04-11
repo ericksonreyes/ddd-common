@@ -19,7 +19,7 @@ class FloatValue implements ValueObject
 
     /**
      * FloatValue constructor.
-     * @param int $value
+     * @param float $value
      */
     public function __construct(float $value)
     {
@@ -27,7 +27,7 @@ class FloatValue implements ValueObject
     }
 
     /**
-     * @return int
+     * @return float
      */
     public function value(): float
     {
