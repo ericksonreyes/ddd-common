@@ -21,7 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Knit\\": "src/DDDCommon"
+      "DDDCommon\\": "src/DDDCommon"
     },
     "psr-0": {
       "": [
