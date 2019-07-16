@@ -1,5 +1,5 @@
 ## Domain-Driven Design Common
-A collection of commonly used Domain-Driven Design related classes.
+A collection of commonly used Domain-Driven Design related classes. This repository was merged into https://github.com/ericksonreyes/domain-driven-design
 
 [![Build Status](https://img.shields.io/travis/ericksonreyes/ddd-common.svg)](https://travis-ci.org/ericksonreyes/ddd-common)
 [![Code Coverage](https://img.shields.io/coveralls/github/ericksonreyes/ddd-common.svg)](https://coveralls.io/github/ericksonreyes/ddd-common?branch=master)
